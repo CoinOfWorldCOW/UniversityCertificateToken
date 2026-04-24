@@ -22,11 +22,8 @@ This project is built to understand:
 ---
 
 ## 📜 Contract
-
-Contract will be added after deployment.
-
-Example:
-https://stellar.expert/explorer/testnet/contract/<CONTRACT_ID>?filter=history
+Link: 
+https://stellar.expert/explorer/testnet/contract/565e4870730b6256b904551d950f792612b5b2cee8c598d16ac7e0788fe2a4a6565e4870730b6256b904551d950f792612b5b2cee8c598d16ac7e0788fe2a4a6?filter=history
 
 ---
 
