@@ -1,25 +1,42 @@
-🎓 University Certificate Token
-📖 Description
+# 🎓 University Certificate Token
 
-A Soroban smart contract on Stellar that issues and verifies digital university certificates (degrees) on-chain.
+## 📖 Description
 
-The goal of this project is to explore how blockchain can be used to create tamper-proof academic credentials that are easy to verify and impossible to fake.
+A simple Soroban smart contract on Stellar that allows issuing and verifying digital university certificates on-chain.
 
-✨ Features
-🎓 Issue a certificate to a student address
-🔍 Verify certificate authenticity on-chain
-🔐 Authorization for issuer (e.g. university)
-📜 Immutable record stored on blockchain
+This project is built to understand:
 
-📜 Contract
+* Soroban smart contract structure
+* On-chain storage
+* Basic authentication using `require_auth`
+
+---
+
+## ✨ Features
+
+* 🎓 Issue a certificate (as a hash) to a student address
+* 🔍 Verify certificate by student address
+* 🔐 Basic issuer authorization
+* 📜 Simple on-chain storage (`Address → Certificate`)
+
+---
+
+## 📜 Contract
 
 Contract will be added after deployment.
 
 Example:
 https://stellar.expert/explorer/testnet/contract/<CONTRACT_ID>?filter=history
 
-🚀 Future Scopes
-Add metadata (degree, major, graduation date)
-Support multiple universities (multi-issuer)
-NFT-style certificates (transferable or non-transferable)
-Frontend for verification (public portal)
+---
+
+## 🚀 Future Scopes
+
+* Support multiple certificates per student
+* Add certificate metadata (degree, major, date)
+* Restrict issuer role (university only)
+* Build a simple frontend for verification
+
+---
+
+## 👤 Author
