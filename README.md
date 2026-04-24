@@ -1,22 +1,25 @@
-# Soroban Project
+🎓 University Certificate Token
+📖 Description
 
-## Project Structure
+A Soroban smart contract on Stellar that issues and verifies digital university certificates (degrees) on-chain.
 
-This repository uses the recommended structure for a Soroban project:
+The goal of this project is to explore how blockchain can be used to create tamper-proof academic credentials that are easy to verify and impossible to fake.
 
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+✨ Features
+🎓 Issue a certificate to a student address
+🔍 Verify certificate authenticity on-chain
+🔐 Authorization for issuer (e.g. university)
+📜 Immutable record stored on blockchain
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+📜 Contract
+
+Contract will be added after deployment.
+
+Example:
+https://stellar.expert/explorer/testnet/contract/<CONTRACT_ID>?filter=history
+
+🚀 Future Scopes
+Add metadata (degree, major, graduation date)
+Support multiple universities (multi-issuer)
+NFT-style certificates (transferable or non-transferable)
+Frontend for verification (public portal)
